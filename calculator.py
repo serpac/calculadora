@@ -18,3 +18,7 @@ class Calculator():
         
         result = operand1 / operand2
         return result
+    
+    def raiz(operand1):
+        
+        return 0

@@ -19,6 +19,12 @@ class calculatorTest:
         resto = value1 * value2
 
         return resto
+    
+    def divisionTest(value1, value2):
+    
+        resto = value1 / value2
+
+        return resto
 calculadora = c.Calculator
 print ("seleccione la operación que quiere realizar")
 print ("1- Suma")
@@ -61,7 +67,7 @@ elif (operation == "2"):
 elif (operation == "3"):
     
 
-    print ("Inserte dos numero enteros para realizar una multiplicacion ")
+    print ("Inserte dos numero enteros para realizar una multiplicación ")
 
     operand1 = int(input())
     operand2 = int(input())
@@ -72,3 +78,19 @@ elif (operation == "3"):
 
     else:
         print("prueba incorrecta")
+
+elif (operation == "4"):
+    
+
+    print ("Inserte dos numero enteros para realizar una división ")
+
+    operand1 = int(input())
+    operand2 = int(input())
+
+
+    if calculatorTest.divisionTest(operand1, operand2) == calculadora.division(operand1,operand2):
+        print ("prueba correcta")
+
+    else:
+        print("prueba incorrecta")
+

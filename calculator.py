@@ -8,4 +8,9 @@ class Calculator():
         
         result = operand1 - operand2
         return result
+
+    def multiplicacion(operand1, operand2):
+        
+      
+        return 0
     

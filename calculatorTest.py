@@ -14,12 +14,12 @@ class calculatorTest:
 
         return resto
 calculadora = c.Calculator
-print ("Inserte dos numero enteros para realizar una resta")
+print ("Inserte dos numero enteros para realizar una suma ")
 
 operand1 = int(input())
 operand2 = int(input())
 
-if calculatorTest.restaTest(operand1, operand2) == calculadora.resta(operand1,operand2):
+if calculatorTest.sumaTest(operand1, operand2) == calculadora.suma(operand1,operand2):
     print ("prueba correcta")
 
 else:

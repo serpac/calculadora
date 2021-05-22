@@ -15,5 +15,6 @@ class Calculator():
         return result
     
     def division(operand1, operand2):
-            
-        return 0
+        
+        result = operand1 / operand2
+        return result
